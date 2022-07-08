@@ -1,0 +1,159 @@
+body {
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2rem;
+  }
+  
+  h4 {
+    color: white;
+    font-size: 72px;
+    margin: 3rem 0;
+  }
+  
+  .estilo-header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  /* Estilos Trabajos Index*/
+  
+  .estilo-wrap-imagenes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  /* Estilos Equipo */
+  
+  .estilo-equipo {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    span {
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-top: 2rem;
+      }
+  }
+  
+  /* Estilos Menu */
+  
+  .menu {
+    margin-left: auto;
+
+    ul {
+        padding: 0;
+
+        li {
+            display: inline-block;
+    
+            a {
+                text-decoration: none;
+                color: white;
+                padding: 20px;
+                display: block;
+            }
+    
+            a:hover {
+                background-color: #fc036b;
+            }
+        }
+    }
+    
+  }
+  
+  .estilo-header h1 {
+    color: white;
+    font-family: verdana;
+  }
+  
+  .bloque-texto {
+    color: white;
+    font-size: 50px;
+    width: 100%;
+  }
+  
+  /* Estilos Equipo */
+  
+  .profile-container {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+
+    h4 {
+        color: white;
+        font-size: 32px;
+      }
+
+    p {
+        color: white;
+        font-size: 24px;
+      }
+  }
+  
+  .avatar {
+    color: white;
+    font-size: 35px;
+  }
+  
+  /* Estilos Servicios */
+  
+  .services-container {
+    padding-top: 0.5rem;
+
+    h4 {
+        color: white;
+        font-size: 36px;
+    }
+
+    p {
+        color: white;
+        font-size: 25px;
+    }
+
+    div img {
+        width: 300px;
+        height: auto;
+    }
+  }
+
+  .nav-servicios {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+
+    li {
+        list-style: none;
+        margin-right: 1rem;
+    
+        a {
+            color: white;
+        }
+      }
+  }
+  
+  /* Estilos Footer */
+  
+  .estilo-footer > * {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .estilo-footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  
+  .formulario{
+    padding: 5px;
+    margin-right: 50px;
+    margin-left: 50px;
+  
+  }
