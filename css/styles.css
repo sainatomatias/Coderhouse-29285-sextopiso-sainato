@@ -5,17 +5,27 @@ body {
   margin: 2rem;
 }
 
+h4 {
+  color: white;
+  font-size: 72px;
+  margin: 3rem 0;
+}
+
 .estilo-header {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
+/* Estilos Trabajos Index*/
+
 .estilo-wrap-imagenes {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
+
+/* Estilos Equipo */
 
 .estilo-equipo {
   display: flex;
@@ -34,12 +44,14 @@ body {
   margin-top: 2rem;
 }
 
+/* Estilos Menu */
+
 .menu {
-    margin-left: auto;
+  margin-left: auto;
 }
 
 .menu ul {
-    padding: 0;
+  padding: 0;
 }
 
 .menu li {
@@ -68,11 +80,7 @@ body {
   width: 100%;
 }
 
-.estilo-footer {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
+/* Estilos Equipo */
 
 .profile-container {
   display: flex;
@@ -95,11 +103,7 @@ body {
   font-size: 35px;
 }
 
-h4 {
-  color: white;
-  font-size: 72px;
-  margin: 3rem 0;
-}
+/* Estilos Servicios */
 
 .services-container {
   padding-top: 0.5rem;
@@ -135,7 +139,23 @@ h4 {
   color: white;
 }
 
+/* Estilos Footer */
+
 .estilo-footer > * {
   display: flex;
   justify-content: center;
+}
+
+.estilo-footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.formulario{
+  padding: 5px;
+  margin-right: 50px;
+  margin-left: 50px;
+
 }
