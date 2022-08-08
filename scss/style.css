@@ -1,0 +1,140 @@
+body {
+  color: white;
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 2rem;
+}
+
+h4 {
+  color: white;
+  font-size: 72px;
+  margin: 3rem 0;
+}
+
+/* Estilos Index*/
+.estilo-wrap-imagenes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.bloque-texto {
+  color: white;
+  font-size: 48px;
+  line-height: 56px;
+  font-weight: 100 !important;
+  letter-spacing: -0.05px;
+  word-spacing: -2.5px;
+  text-align: left;
+  max-width: 920px;
+}
+
+/* Estilos Equipo */
+.team-description h4 {
+  font-weight: bold;
+}
+.team-description p {
+  color: white;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 100 !important;
+  letter-spacing: -0.05px;
+  word-spacing: -2.5px;
+  text-align: left;
+  max-width: 920px;
+}
+
+.estilo-equipo {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.estilo-equipo span {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 2rem;
+  text-align: left;
+}
+.estilo-equipo span h2 {
+  font-weight: bold;
+}
+
+/* Estilos Servicios */
+.page-description h4 {
+  font-weight: bold;
+}
+
+.services-container {
+  padding-top: 0.5rem;
+}
+.services-container h4 {
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+}
+.services-container p {
+  color: white;
+  font-size: 25px;
+}
+.services-container div img {
+  width: 300px;
+  height: auto;
+}
+
+.nav-servicios {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
+.nav-servicios li {
+  list-style: none;
+  margin-right: 1rem;
+}
+.nav-servicios li a {
+  color: white;
+}
+
+/* Estilos Proyectos */
+.projects-description h4 {
+  font-weight: bold;
+}
+.projects-description p {
+  color: white;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 100 !important;
+  letter-spacing: -0.05px;
+  word-spacing: -2.5px;
+  text-align: left;
+  max-width: 920px;
+}
+
+/* Estilos Contacto */
+.talk-description h4 {
+  font-weight: bold;
+}
+.talk-description p {
+  color: white;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 100 !important;
+  letter-spacing: -0.05px;
+  word-spacing: -2.5px;
+  text-align: left;
+  max-width: 920px;
+}
+
+/* Estilos Footer */
+.estilo-footer > * {
+  display: flex;
+  justify-content: center;
+}
+
+.estilo-footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}/*# sourceMappingURL=style.css.map */
